@@ -246,5 +246,3 @@ def index():
     }
     return render_template_string(template, **context)
 
-if __name__ == '__main__':
-    app.run(debug=True)
